@@ -1,0 +1,9 @@
+FROM alpine
+MAINTAINER syiml
+RUN apk --update add gcc
+RUN apk --update add g++
+RUN mkdir -p /data/judge
+ADD ./shell.sh /data/
+RUN mkdir -p /data/out
+RUN chmod 777 /data/shell.sh
+CMD ./data/shell.sh

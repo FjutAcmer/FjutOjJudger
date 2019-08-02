@@ -1,0 +1,10 @@
+{
+	"port":"8100",
+	"path":"/app/judge_system/judge_file/",
+	"data_name":"data",
+	"run_name":"run",
+	"compile_arg":"-O2 -s -Wall -std=gnu++11 -lm",
+	"cpuset":"1",
+	"oj_path":"127.0.0.1",	
+	"oj_port":"8080"	
+}
