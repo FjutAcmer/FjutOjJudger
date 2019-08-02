@@ -24,14 +24,21 @@
 　　　　　　　　log //评测log
 ```
 # 安装
+
 将目录结构下的内容放于 /app/judge_system/ 下，或者更改 judge_system/judge/nodejs/config.json里面的path值
-如果部署环境是Ubuntu16.x， 请运行install-ubuntu.sh  => ( ./install-ubuntu.sh )
-如果部署环境在CentOS7，请运行install-centos.sh => ( ./install-centos.sh )
+如果部署环境是Ubuntu16.x， 请运行 install-ubuntu.sh  
+```
+./install-ubuntu.sh
+```
+如果部署环境在CentOS7，请运行 install-centos.sh
+```
+./install-centos.sh
 ```
 
-```
+
 # 运行
+```
 用nodejs启动judge/nodejs/hello.js. Ubuntu16.x => ( nodejs judge/nodejs/hello.js ); CentOS 7 => ( node judge/nodejs/hello.js )
 ```
 nodejs hello.js
-```
+
