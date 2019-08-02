@@ -26,6 +26,7 @@
 # 安装
 
 将目录结构下的内容放于 /app/judge_system/ 下，或者更改 judge_system/judge/nodejs/config.json里面的path值
+
 如果部署环境是Ubuntu16.x， 请运行 install-ubuntu.sh  
 ```
 ./install-ubuntu.sh
