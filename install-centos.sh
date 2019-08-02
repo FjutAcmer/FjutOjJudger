@@ -1,5 +1,3 @@
-# 获取权限
-sudo -s
 # 更新 yum 的 INDEX
 sudo yum update
 
@@ -20,11 +18,9 @@ docker version
 # 下载 wget 包
 sudo yum install -y wget
 # 建立 app/software/ 并进入该目录下
-cd /
-mkdir app
-cd app
-mkdir software
-cd software
+mkdir /app
+mkdir /app/software
+cd /app/software
 # 下载 nodejs v12.4.0 编译版本压缩包
 wget https://nodejs.org/dist/v12.4.0/node-v12.4.0-linux-x64.tar.xz 
 # 解压
@@ -39,6 +35,8 @@ mv node-v12.4.0-linux-x64 nodejs
 ln -s /nodejs/bin/npm   /usr/bin/
 ln -s /nodejs/bin/node	/usr/bin/
 
+# 返回安装目录
+cd /app/judge_system
 # 安装docker内环境apline 3.2
 docker pull alpine:3.2
 # 建立docker容器
