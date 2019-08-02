@@ -37,8 +37,14 @@
 
 
 # 运行
+用nodejs启动judge/nodejs/hello.js
+
+Ubuntu 16.x:
 ```
-用nodejs启动judge/nodejs/hello.js. Ubuntu16.x => ( nodejs judge/nodejs/hello.js ); CentOS 7 => ( node judge/nodejs/hello.js )
+nodejs hello.js )
 ```
-nodejs hello.js
+CentOS 7:
+```
+node hello.js
+```
 
